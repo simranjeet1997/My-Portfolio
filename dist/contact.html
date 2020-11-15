@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.12/css/all.css'><link rel="stylesheet" href="./style.css">
+  
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact US</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
+    
+        <nav class="menu">
+          <div class="menu-branding">
+            <div class="portrait"></div>
+          </div>
+          <ul class="menu-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item current">
+              <a href="about.html" class="nav-link">
+                About Me
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="work.html" class="nav-link">
+                My Work
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                How To Reach Me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main id="about">
+        <h1 class="lg-heading">
+          Feed
+          <span class="text-secondary">Back</span>
+        </h1>
+        <h2 class="sm-heading">
+          Give Your feedback at
+        </h2>
+        <div class="container">
+            <div class="wrapper">
+                <div class="company-info">
+                 <h3>Simranjeet  <span class="text-secondary">Kaur</span></h3>
+                 <ul>
+                     <li><i class="fa fa-road"></i>  Rajasthan</li>
+                     <li><i class="fa fa-envelope"></i><span class="text-secondary"> simran.sep1997@gmail.com</span></li>
+                 </ul>
+                </div>
+                <div class="contact">
+                 <h2>Email <span class="text-secondary">Me</span></h2>
+                 <div class="alert">Your message has been send!!</div>
+                 <form id="contactForm">
+                  <p>
+                      <label><span class="text-secondary">Name</span></label>
+                      <input type="text" name="name" id="name" required>
+                    </p>
+                    <p>
+                      <label><span class="text-secondary">Company</span></label>
+                      <input type="text" name="company" id="company">
+                    </p>
+                    <p>
+                      <label><span class="text-secondary">Email Address</span></label>
+                      <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                      <label><span class="text-secondary">Phone Number</span></label>
+                      <input type="text" name="phone" id="phone">
+                    </p>
+                    <p class="full">
+                      <label><span class="text-secondary">Message</span></label>
+                      <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class="full">
+                      <button type="submit">Submit</button>
+                    </p>
+                 </form>
+                </div>
+            </div>
+        </div>
+        
+      </main>
+    
+      <footer id="main-footer">
+        Copyright &copy; 2020
+      </footer>
+    
+      <script src="js/main.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+     
+     
+      <script src="js/contact.js"></script>
+</body>
+</html>
